@@ -2,6 +2,23 @@
 
 ![Image Alt Text](landing.png)
 
+## Deployed Application
+
+You can access the deployed application at the following URL:
+
+#### [Quiz Application](https://conceptile-intern-production.up.railway.app/)
+
+## Admin Panel
+
+To access the admin panel, use the following URL:
+
+#### [Admin Panel](https://conceptile-intern-production.up.railway.app/admin)
+
+### Login Credentials:
+
+- **Username**: admin
+- **Password**: 1234
+
 ## Local Setup Instructions
 
 ### Requirements
@@ -14,10 +31,8 @@
 To clone this repository and navigate into the folder, run the following script:
 
 ```bash
-# Clone the repository
 git clone https://github.com/Pradeep-Kumar-Rebbavarapu/Conceptile-Intern
 
-# Navigate into the cloned repository folder
 cd Conceptile-Intern
 ```
 
@@ -26,10 +41,8 @@ cd Conceptile-Intern
 To create and activate a virtual environment, use the following commands:
 
 ```bash
-# Create a virtual environment
 python3 -m venv venv
 
-# Activate the virtual environment
 
 # On Windows
 venv\Scripts\activate
@@ -43,10 +56,8 @@ source venv/bin/activate
 Once the virtual environment is activated, install the required dependencies by running:
 
 ```bash
-# Go Into the backend directory
 cd backend
 
-# Install dependencies from requirements.txt
 pip install -r requirements.txt
 ```
 
@@ -67,13 +78,10 @@ HOST_URL="localhost"
 For setting up the database, you need to run the following commands:
 
 ```bash
-# Make migrations for the database
 python manage.py makemigrations
 
-# Apply migrations to the database
 python manage.py migrate
 
-# Create a superuser to access the Django admin panel
 python manage.py createsuperuser
 
 ```
@@ -83,7 +91,6 @@ python manage.py createsuperuser
 To generate and add sample questions to the database, run the following command:
 
 ```bash
-# Add sample questions to the database
 python manage.py generate_questions
 ```
 
@@ -92,7 +99,6 @@ python manage.py generate_questions
 To start the Django development server, run the following command:
 
 ```bash
-# Start the Django development server
 python manage.py runserver
 ```
 
@@ -114,10 +120,8 @@ Now, you can visit the project at http://localhost:8000 in your browser.
 To clone this repository and navigate into the folder, run the following script:
 
 ```bash
-# Clone the repository
 git clone https://github.com/Pradeep-Kumar-Rebbavarapu/Conceptile-Intern
 
-# Navigate into the cloned repository folder
 cd Conceptile-Intern
 ```
 
